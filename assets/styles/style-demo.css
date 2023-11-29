@@ -173,12 +173,17 @@ main div.video-pitch iframe{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
+main div.video-pitch h2{
+  text-align: center;
+
+}
 
 main div.video-pitch h2 , main div.description h2{
 
   font-size: 3.2rem;
   letter-spacing: 0.1rem;
   color: var(--base-header-font-color);
+  
 
 
 

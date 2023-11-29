@@ -109,7 +109,7 @@ header button:hover{
 }
 
 
-section.contextualization{
+section.problem{
   
   display: flex;
   padding: 1.2rem 32rem 0;
@@ -120,7 +120,7 @@ section.contextualization{
 
 }
 
-section.contextualization div.main-text{
+section.problem div.main-text{
 
   width: 50%;
   display: flex;
@@ -129,7 +129,7 @@ section.contextualization div.main-text{
   color: var(--base-header-font-color);
 }
 
-section.contextualization div.main-text h1{
+section.problem div.main-text h1{
 
   font-size: 3.6rem;
   letter-spacing: 0.1rem;
@@ -139,7 +139,7 @@ section.contextualization div.main-text h1{
 }
 
 
-section.contextualization img{
+section.problem img{
 
     width: 35%;
     height: 35%;
@@ -150,33 +150,18 @@ section.contextualization img{
 main{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 4rem 32rem 4rem;
-  gap: 20rem;
-
-
-}
-
-main div.video-pitch{
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  padding: 4rem 32rem 4rem;
   gap: 2.4rem;
-}
-
-main div.video-pitch iframe{
-  
-  width: 55rem;
   height: 40rem;
-  border: 1px solid #ccc; /* Adicionar uma borda para melhorar a aparência */
-  border-radius: 2rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 
 }
 
-main div.video-pitch h2 , main div.description h2{
+main h2{
 
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   letter-spacing: 0.1rem;
   color: var(--base-header-font-color);
 
@@ -184,17 +169,17 @@ main div.video-pitch h2 , main div.description h2{
 
 }
 
-
-main div.description{
-    display: flex;
-    flex-direction: column;
-    gap: 2.4rem;
-
+main p{
+  text-align: center;
+  color: var(--base-header-font-color);
+  line-height: 2rem;
 }
 
 
 
-section.alert-important{
+
+
+section.motivation{
   
   display: flex;
   padding: 1.2rem 32rem 0;
@@ -206,7 +191,7 @@ section.alert-important{
 
 }
 
-section.alert-important div.main-text{
+section.motivation div.main-text{
 
   width: 50%;
   display: flex;
@@ -215,7 +200,7 @@ section.alert-important div.main-text{
   color: var(--base-header-font-color);
 }
 
-section.alert-important div.main-text h2{
+section.motivation div.main-text h2{
 
   font-size: 3.6rem;
   letter-spacing: 0.1rem;
@@ -226,18 +211,65 @@ section.alert-important div.main-text h2{
 }
 
 
-section.alert-important div.main-text p , main div.description p , section.contextualization div.main-text p{
+section.motivation div.main-text p , main div.description p , section.problem div.main-text p{
 
   color: var(--base-header-font-color);
   line-height: 2rem;
 }
 
 
-section.alert-important img{
+section.motivation img{
 
     width: 35%;
     height: 35%;
 
   
 }
+
+
+section.numbers{
+  
+  padding: 4rem 32rem 4rem;
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+}
+
+
+section.numbers div.grafico{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+section.numbers div.grafico h2{
+  font-size: 3.6rem;
+  letter-spacing: 0.1rem;
+  color: var(--base-header-font-color);
+  text-align: center;
+}
+
+
+div.description{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+}
+
+div.description h2{
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: var(--base-header-font-color);
+  
+}
+
+
+div.description p{
+  
+  color: var(--base-header-font-color);
+  line-height: 2rem;
+}
+
 

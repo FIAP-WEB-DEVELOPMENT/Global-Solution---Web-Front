@@ -12,6 +12,7 @@
   --primary-btn-color : #23A6F0;
   --primary-btn-hover: #1f87c4;
   --primary-color-form: #252B42;
+  --primary-bc-color: rgb(235, 244, 252);
 }
 
 
@@ -27,11 +28,12 @@ body{
 /* Contatos */
 
 div.teste{
-  padding: 1.2rem 32rem 0;
+  
   background-image: url(/assets/images/wepik-export-20231128193239qXkR.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  
+ 
  
   
 }
@@ -44,7 +46,8 @@ header{
   align-items: center;
   justify-content: space-between;
   color: var(--base-header-font-color);
-  padding: 1.2rem 0;
+  padding: 1.6rem 0;
+  margin: 0 32rem 0;
  
   
 }
@@ -54,15 +57,38 @@ header nav{
   gap: 5.8rem;
 }
 
-header nav a {
+header nav a.brand-name {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.2rem;
   letter-spacing: 0.007rem;
 
   text-decoration: none;
-  color: var(--base-header-font-color)
+  color: var(--base-header-font-color);
  
+ 
+}
+
+
+header nav ul a{
+
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.007rem;
+  text-decoration: none;
+  color: var(--base-header-font-color);
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.7s ease-out;
+ 
+
+}
+
+
+header nav ul a:hover{
+
+ 
+  border-bottom: 2px solid var(--base-header-font-color);
+
 }
 
 header ul{
@@ -99,7 +125,7 @@ div#page main{
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
-  padding: 3.6rem 0;
+  padding: 2rem 32rem 0;
   
 }
 
@@ -247,3 +273,72 @@ form button.btn-form{
 form button.btn-form:hover{
  background-color: var(--primary-btn-hover);
 }
+
+section.integrantes{
+
+  padding: 2rem 32rem 0;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+
+ 
+}
+
+
+section.integrantes h2{
+
+  font-size: 3.6rem;
+  letter-spacing: 0.1rem;
+  color: #252B42;
+ 
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Centraliza o texto nas células */
+}
+
+
+th {
+  background-color: #f2f2f2;
+}
+
+table img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.thank-you-message {
+  color: green;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+

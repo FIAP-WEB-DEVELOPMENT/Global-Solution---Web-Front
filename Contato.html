@@ -23,10 +23,10 @@
         <nav>
           <a href="/index.html" class="brand-name">PrescripEase</a>
           <ul>
-            <li>Home</li>
-            <li>Problema & Solução</li>
-            <li>Demonstração</li>
-            <li>Contato</li>
+            <a href="index.html"><li>Home</li></a>
+            <a href="solution.html"><li>Problema & Solução</li></a>
+            <a href="demonstration.html"><li>Demonstração</li></a>
+           <a href="Contato.html"><li>Contato</li></a>
           </ul>
   
         
@@ -34,7 +34,7 @@
         </nav>
   
         <button>
-          <p>Get Quote Now</p>
+          <p>Saiba mais</p>
           <img src="./assets/images/seta.svg" alt="Imagem de uma seta ">
         </button>
   
@@ -45,19 +45,18 @@
       <main>
   
         <section class="main-title">
-          <h1>Meet the Best Hospital</h1>
+          <h1>Conheça a plataforma!</h1>
   
-          <p>We know how large objects will act, 
-            but things on a small scale.</p>
+          <p> <strong>PrescripEase:</strong> Transformando a complexidade médica em clareza, promovendo cuidados de saúde personalizados e acessíveis para todos.</p>
   
           <div class="cta-btn">
             <button>
-              <p>Get Quote</p>
+              <p>Simulação</p>
             </button>
   
             <span>
               <button>
-                <p>Learn more</p>
+                <p>Saiba mais!</p>
               </button>
             </span>
   
@@ -65,62 +64,64 @@
         </section>
   
   
-        <form>
+        <form id="contact-form" onsubmit="return validateForm()">
   
           <fieldset>
   
             <div class="fieldset-wrapper">
-              <legend>Book appointment</legend>
+              <legend>Fale conosco!</legend>
             </div>
   
   
             <div class="input-wrapper">
-              <label for="name">Name*</label>
-              <input type="text" id="name" name="name" placeholder="Full name *">
+              <label for="name">Nome*</label>
+              <input type="text" id="name" name="name" placeholder="Nome completo*" minlength="3">
             </div>
   
             <div class="input-wrapper">
-              <label for="email">Email address *</label>
-              <input type="text" id="email" name="emal" placeholder="example@gmail.com">
+              <label for="email">Endereço de email *</label>
+              <input type="email" id="email" name="emal" placeholder="exemplo@gmail.com">
             </div>
-  
-            <div class="input-wrapper">
-              <label for="dep">Departement *</label>
-              
-              <select name="dep" id="dep">
-                <option value="Odontologia">Odontologia</option>
-                <option value="Pediatria">Pediatria</option>
-                <option value="Clínico geral">Clínico geral</option>
-              </select>
-            </div>
-  
-           
-            <div class="input-wrapper">
-              <label for="time">Horário*</label>
-            <select name="time" id="time">
-             
-              <option value="10:00">10:00</option>
-              <option value="11:00">11:00</option>
-              <option value="12:00">12:00</option>
-              <option value="13:00">13:00</option>
-            </select>
-          </div>
             
           </fieldset>
           
-          <button class="btn-form">Book Appointment</button>
+          <button class="btn-form" id="btn-form">Enviar</button>
   
         </form>
   
   
       </main>
 
+   
+
     </div>
+
+
+    <section class="integrantes">
+      <h2>Integrantes</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Foto</th>
+            <th>RM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Enzo de Oliveira Rodrigues</td>
+            <td><img src="./assets/images/Avatar.jpg" alt="Foto de João Silva"></td>
+            <td>RM553377</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     
 
 
   </div>
 
-
+<script src="./JS/main.js"></script>
 </body>
 </html>
