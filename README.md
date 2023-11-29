@@ -1,7 +1,4 @@
 
-<h1 align="center">
-        <img alt="Banner" title="#Banner" style="object-fit: cover; height:250px;" src="/GlobalSolution-PrescpEase-banner.png"  /> 
-</h1>
 
 <h2 align="center">Global Solution - HAPVIDA</h2>
 <h3 align="center">Enzo de Oliveira Rodrigues | RM: 553377</h3>
