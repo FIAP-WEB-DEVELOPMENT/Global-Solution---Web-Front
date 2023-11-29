@@ -38,7 +38,7 @@ header{
   justify-content: space-between;
   color: var(--base-header-font-color);
   padding: 1.6rem 0;
-  margin: 0 32rem 0;
+  margin: 0 10rem 0;
  
   
 }
@@ -112,7 +112,7 @@ header button:hover{
 section.problem{
   
   display: flex;
-  padding: 1.2rem 32rem 0;
+  padding: 1.2rem 10rem 0;
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary-bc-color);
@@ -182,7 +182,7 @@ main p{
 section.motivation{
   
   display: flex;
-  padding: 1.2rem 32rem 0;
+  padding: 1.2rem 10rem 0;
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary-bc-color);
@@ -229,7 +229,7 @@ section.motivation img{
 
 section.numbers{
   
-  padding: 4rem 32rem 4rem;
+  padding: 4rem 10rem 4rem;
   display: flex;
   align-items: center;
   gap: 20rem;
